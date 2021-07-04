@@ -1,0 +1,27 @@
+body {
+  background: linear-gradient(135deg, #e9ff00, #ff3434);
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  line-height: 1.3;
+  overflow: hidden;
+}
+.res {
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-top: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.card {
+  margin-right: 10px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgb(194, 91, 163), red);
+  color: white;
+  cursor: pointer;
+  transition: transform 100ms ease-out;
+}
+.card:hover {
+  transform: scale(1.05);
+}
